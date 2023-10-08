@@ -24,6 +24,10 @@ const routes = [
         path: '2',
         component: () => import('../views/books/book1/Page2View.vue'),
       },
+      {
+        path: '3',
+        component: () => import('../views/books/book1/Page3View.vue'),
+      },
     ]
   },
   {

@@ -1,14 +1,19 @@
 <script setup>
 import router from "@/router";
+import { useRoute } from 'vue-router';
 
 const title = "岁岁廿廿的节气之旅（春季篇）";
 const smallTitle = "title";
+
+const { params } = useRoute();
 
 var pagination = {
   currentPage: 0,
   pageSize: 1,
   total: 11
 }
+
+pagination.currentPage = params.id;
 
 const handleCurrentChange = () => {
   router.push({ path: `/book1/:id/${pagination.currentPage}` })
@@ -38,7 +43,7 @@ const handleCurrentChange = () => {
             v-model:page-size="pagination.pageSize"
             :small="false"
             :disabled="false"
-            :background="false"
+            :background="true"
             layout="prev, pager, next, jumper"
             v-model:total="pagination.total"
             @current-change="handleCurrentChange"

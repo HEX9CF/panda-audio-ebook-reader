@@ -1,14 +1,16 @@
 <script setup>
-// const bookList = [];
+const title = "书库";
+const smallTitle = "Library";
 </script>
+
 
 <template>
   <div>
     <el-row :gutter="20">
       <el-col :span="2"></el-col>
       <el-col :span="20">
-        <h1>书库</h1>
-        <el-text class="mx-1" size="small">Library</el-text>
+        <h1>{{ title }}</h1>
+        <el-text class="mx-1" size="small">{{ smallTitle }}</el-text>
         <el-divider></el-divider>
         <el-row :gutter="20">
           <el-col :span="6" v-for="(i) in 8" :key="i">

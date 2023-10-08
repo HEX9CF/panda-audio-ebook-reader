@@ -1,4 +1,4 @@
-# 24-solar-terms-ebook-1
+# 24-solar-terms-ebook
 
 ## Project setup
 ```

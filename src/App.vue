@@ -1,8 +1,13 @@
 <template>
+<!--
   <nav>
     <router-link to="/">Home</router-link> |
+    <router-link to="/library">Library</router-link> |
+    <router-link to="/book">Book</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
+-->
+  <navbar-comp></navbar-comp>
   <router-view/>
 </template>
 
@@ -28,3 +33,7 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+
+<script setup>
+import NavbarComp from "@/components/NavbarComp.vue";
+</script>

@@ -1,5 +1,13 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <el-row :gutter="20">
+      <el-col :span="2"></el-col>
+      <el-col :span="20">
+        <h1>关于</h1>
+        <el-text class="mx-1" size="small">About</el-text>
+        <el-divider></el-divider>
+      </el-col>
+      <el-col :span="2"></el-col>
+    </el-row>
   </div>
 </template>

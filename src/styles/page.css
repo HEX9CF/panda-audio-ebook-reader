@@ -1,0 +1,20 @@
+.chsText {
+    text-indent: 2em;
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+}
+
+.engText {
+    text-indent: 2em;
+    text-align: left;
+    font-size: 24px;
+    font-family: 'MV Boli', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+}
+
+.tip {
+    max-width: 400px;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'MV Boli', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+}

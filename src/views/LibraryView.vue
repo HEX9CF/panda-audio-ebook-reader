@@ -96,4 +96,9 @@ a {
   width: 275px;
   padding: 0px;
 }
+
+.bookCard {
+  width: 275px;
+  padding: 0px;
+}
 </style>

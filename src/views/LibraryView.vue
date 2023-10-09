@@ -13,13 +13,52 @@ const smallTitle = "Library";
         <el-text class="mx-1" size="small">{{ smallTitle }}</el-text>
         <el-divider></el-divider>
         <el-row :gutter="20">
-          <el-col :span="6" v-for="(i) in 8" :key="i">
+          <el-col :span="6">
             <el-card :body-style="{ padding: '0px' }">
-              <img src="../assets/book1/1.jpg" class="image"/>
+              <img src="../assets/images/book1/1.jpg" class="image"/>
               <div style="padding: 14px">
-                <span>岁岁廿廿的节气之旅（春季篇）</span>
+                <span class="bookTitle">《岁岁廿廿的节气之旅（春季篇）》</span>
                 <div class="bottom">
-                  <span><el-text class="mx-1" size="small">这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介</el-text></span>
+                  <span class="desc">这是简介</span>
+                  <el-button class="button" type="primary"><router-link to="book1/:id/1"><el-icon><Reading /></el-icon>&nbsp;阅读</router-link></el-button>
+                </div>
+              </div>
+            </el-card>
+            <br/>
+          </el-col>
+          <el-col :span="6">
+            <el-card :body-style="{ padding: '0px' }">
+              <img src="../assets/images/book1/2.jpg" class="image"/>
+              <div style="padding: 14px">
+                <span class="bookTitle">《岁岁廿廿的节气之旅（夏季篇）》</span>
+                <div class="bottom">
+                  <span class="desc">这是简介</span>
+                  <el-button class="button" type="primary"><router-link to="book1/:id/1"><el-icon><Reading /></el-icon>&nbsp;阅读</router-link></el-button>
+                </div>
+              </div>
+            </el-card>
+            <br/>
+          </el-col>
+          <el-col :span="6">
+            <el-card :body-style="{ padding: '0px' }">
+              <img src="../assets/images/book1/3.jpg" class="image"/>
+              <div style="padding: 14px">
+                <span class="bookTitle">《岁岁廿廿的节气之旅（秋季篇）》</span>
+                <div class="bottom">
+                  <span class="desc">这是简介</span>
+                  <el-button class="button" type="primary"><router-link to="book1/:id/1"><el-icon><Reading /></el-icon>&nbsp;阅读</router-link></el-button>
+                </div>
+              </div>
+            </el-card>
+            <br/>
+          </el-col>
+          <el-col :span="6">
+            <el-card :body-style="{ padding: '0px' }">
+              <img src="../assets/images/book1/4.jpg" class="image"/>
+              <div style="padding: 14px">
+                <span class="bookTitle">《岁岁廿廿的节气之旅（冬季篇）》</span>
+                <div class="bottom">
+                  <span class="desc">这是简介</span>
                   <el-button class="button" type="primary"><router-link to="book1/:id/1"><el-icon><Reading /></el-icon>&nbsp;阅读</router-link></el-button>
                 </div>
               </div>
@@ -54,5 +93,14 @@ const smallTitle = "Library";
 a {
   color: #fff;
   text-decoration:none;
+}
+
+.desc {
+  font-size: 12px;
+  color: #999;
+}
+
+.bookTitle {
+  font-size: 14px;
 }
 </style>

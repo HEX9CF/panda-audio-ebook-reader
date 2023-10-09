@@ -6,10 +6,9 @@
         <h1>{{ title }}</h1>
         <el-text class="mx-1" size="small">{{ smallTitle }}</el-text>
         <el-divider></el-divider>
-        <el-carousel :interval="4000" type="card">
-          <el-carousel-item v-for="item in 4" :key="item">
-<!--            <h3 text="2xl" justify="center">{{ item }}</h3>-->
-            <el-image :src="require('@/assets/book1/1.jpg')" fit="contain"></el-image>
+        <el-carousel :interval="4000" type="card" height="900px">
+          <el-carousel-item v-for="i in 18" :key="i">
+            <el-image :src="require('@/assets/images/cover/' + i + '.jpg')" fit="fill"></el-image>
           </el-carousel-item>
         </el-carousel>
       </el-col>
@@ -25,8 +24,12 @@ const smallTitle = "Home";
 
 
 <style scoped>
-.el-carousel__item el-image {
-  color: #475669;
+el-carousel {
+  height: 100px;
+  width: 100px;
+}
+
+el-carousel-item el-image {
   opacity: 0.75;
   line-height: 200px;
   margin: 0;

@@ -1,4 +1,4 @@
-<script>
+<script setup>
 
 </script>
 
@@ -6,11 +6,11 @@
   <div>
     <el-row :gutter="20">
       <el-col :span="12">
-        <el-image :src="require('@/assets/book1/3.jpg')" fit="contain" />
+        <el-image :src="require('@/assets/images/book1/3.jpg')" fit="contain" />
       </el-col>
       <el-col :span="12">
         <div class="content">
-          <p class="chsText">
+          <p class="chsPara">
             在越冬的燕子飞回北方，鱼儿畅游在解冻的河面，岁岁约上了好朋友出城探春踏春。朋友们
             <el-tooltip placement="bottom">
               <template #content><p class="tip">
@@ -45,7 +45,7 @@
             </el-tooltip>
             ”。
           </p>
-          <p class="engText">
+          <p class="engPara">
             In many parts of China, people eat spring pancanks, spring rolls, and a few mouthfuls of carrots.
           </p>
         </div>

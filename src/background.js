@@ -34,7 +34,6 @@ async function createWindow() {
   })
 
   if (process.env.WEBPACK_DEV_SERVER_URL) {
-    win.maximize()
     // Load the url of the dev server if in development mode
     await win.loadURL(process.env.WEBPACK_DEV_SERVER_URL)
     // 启动调试
@@ -44,6 +43,9 @@ async function createWindow() {
     // Load the index.html when not in development
     win.loadURL('app://./index.html')
   }
+
+  // 窗口最大化
+  win.maximize()
 }
 
 // Quit when all windows are closed.

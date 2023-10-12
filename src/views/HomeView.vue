@@ -1,16 +1,26 @@
 <template>
   <div class="home">
-    <el-row :gutter="20">
+    <el-row>
       <el-col :span="2"></el-col>
       <el-col :span="20">
         <h1>{{ title }}</h1>
         <el-text class="mx-1" size="small">{{ smallTitle }}</el-text>
         <el-divider></el-divider>
-        <el-carousel :interval="4000" type="card" height="900px">
+        <img src="@/assets/logo.png" id="bigLogo"/>
+        <br/><br/>
+        <el-card>
+          <el-icon>
+            <InfoFilled/>
+          </el-icon>&nbsp;提示：按下[F11]进入全屏模式，效果更佳。再次按下[F11]可退出全屏模式。
+        </el-card>
+        <br/>
+<!--
+        <el-carousel :interval="4000" type="card">
           <el-carousel-item v-for="i in 18" :key="i">
             <el-image :src="require('@/assets/images/cover/' + i + '.jpg')" fit="fill"></el-image>
           </el-carousel-item>
         </el-carousel>
+-->
       </el-col>
       <el-col :span="2"></el-col>
     </el-row>
@@ -19,7 +29,7 @@
 
 <script setup>
 const title = "岁岁廿廿的节气之旅";
-const smallTitle = "Home";
+const smallTitle = "多模态有声电子绘本";
 </script>
 
 
@@ -45,4 +55,9 @@ el-carousel-item el-image {
   background-color: #d3dce6;
 }
 */
+
+#bigLogo {
+  height: 200px;
+  width: 200px;
+}
 </style>

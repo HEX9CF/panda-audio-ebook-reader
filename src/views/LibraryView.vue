@@ -3,10 +3,9 @@ const title = "书库";
 const smallTitle = "Library";
 </script>
 
-
 <template>
-  <div>
-    <el-row :gutter="20">
+  <div id="library">
+    <el-row>
       <el-col :span="2"></el-col>
       <el-col :span="20">
         <h1>{{ title }}</h1>
@@ -18,11 +17,12 @@ const smallTitle = "Library";
             <div style="padding: 14px">
               <span class="bookTitle">《岁岁廿廿的节气之旅（春季篇）》</span>
               <div class="bottom">
-                <span class="desc">这是简介</span>
+                <span class="desc"></span>
                 <el-button class="button" type="primary"><router-link to="book1/:id/1"><el-icon><Reading /></el-icon>&nbsp;阅读</router-link></el-button>
               </div>
             </div>
           </el-card>
+<!--
           <el-card class="bookCard">
             <img src="../assets/images/book1/2.jpg" class="image"/>
             <div style="padding: 14px">
@@ -53,6 +53,7 @@ const smallTitle = "Library";
               </div>
             </div>
           </el-card>
+-->
         </el-space>
       </el-col>
       <el-col :span="2"></el-col>
@@ -93,12 +94,7 @@ a {
 }
 
 .bookCard {
-  width: 275px;
-  padding: 0px;
-}
-
-.bookCard {
-  width: 275px;
+  width: 200px;
   padding: 0px;
 }
 </style>

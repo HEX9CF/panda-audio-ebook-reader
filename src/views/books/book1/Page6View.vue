@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <el-row :gutter="20">
+    <el-row>
       <el-col :span="12">
         <el-image :src="require('@/assets/images/book1/6.jpg')" fit="contain" />
       </el-col>

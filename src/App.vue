@@ -1,14 +1,7 @@
 <template>
-<!--
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/library">Library</router-link> |
-    <router-link to="/book">Book</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
--->
   <navbar-comp></navbar-comp>
   <router-view/>
+  <footer-comp></footer-comp>
 </template>
 
 <style>
@@ -36,4 +29,5 @@ nav a.router-link-exact-active {
 
 <script setup>
 import NavbarComp from "@/components/NavbarComp.vue";
+import FooterComp from "@/components/FooterComp.vue";
 </script>

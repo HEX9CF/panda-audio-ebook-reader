@@ -3,7 +3,7 @@ import router from "@/router";
 import { useRoute } from 'vue-router';
 
 const title = "岁岁廿廿的节气之旅（春季篇）";
-const smallTitle = "title";
+const smallTitle = "";
 
 const { params } = useRoute();
 
@@ -21,8 +21,9 @@ const handleCurrentChange = () => {
 </script>
 
 <template>
-  <div>
-    <el-row :gutter="20">
+  <navbar-comp></navbar-comp>
+  <div id="book1">
+    <el-row>
       <el-col :span="2">
       </el-col>
       <el-col :span="20">
@@ -45,7 +46,7 @@ const handleCurrentChange = () => {
       </el-col>
     </el-row>
       <div id="pagination">
-        <!--<el-affix position="bottom" :offset="0">-->
+        <el-affix position="bottom" :offset="0">
         <el-card class="box-card">
           <el-pagination
               v-model:current-page="pagination.currentPage"
@@ -58,7 +59,7 @@ const handleCurrentChange = () => {
               @current-change="handleCurrentChange"
           />
         </el-card>
-        <!--</el-affix>-->
+        </el-affix>
       </div>
   </div>
 </template>

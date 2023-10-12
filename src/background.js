@@ -19,7 +19,9 @@ async function createWindow() {
     // 设置标题栏
     titleBarStyle: 'hidden',
     titleBarOverlay: {
-      height: 50
+      height: 50,
+      color: '#ffffff',
+      symbolColor: '#000000'
     },
     // 设置图标
     icon: join(__dirname, '../public/logo.png'),
@@ -32,6 +34,7 @@ async function createWindow() {
   })
 
   if (process.env.WEBPACK_DEV_SERVER_URL) {
+    win.maximize()
     // Load the url of the dev server if in development mode
     await win.loadURL(process.env.WEBPACK_DEV_SERVER_URL)
     // 启动调试

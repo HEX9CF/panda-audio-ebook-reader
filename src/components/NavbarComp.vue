@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <!--<el-affix position="top" :offset="0">-->
+  <el-affix position="top" :offset="0">
     <el-menu
         :default-active="1"
         mode="horizontal"
@@ -18,7 +18,7 @@
       <el-menu-item index="/library"><el-icon><Files /></el-icon>书库 Library</el-menu-item>
       <el-menu-item index="/about"><el-icon><InfoFilled /></el-icon>关于 About</el-menu-item>
     </el-menu>
-  <!--</el-affix>-->
+  </el-affix>
 </template>
 
 <style scoped>

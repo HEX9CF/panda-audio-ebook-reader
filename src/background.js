@@ -2,7 +2,7 @@
 
 import { app, protocol, BrowserWindow } from 'electron'
 import { createProtocol } from 'vue-cli-plugin-electron-builder/lib'
-import installExtension, { VUEJS3_DEVTOOLS } from 'electron-devtools-installer'
+// import installExtension, { VUEJS3_DEVTOOLS } from 'electron-devtools-installer'
 import { join } from 'path'
 const isDevelopment = process.env.NODE_ENV !== 'production'
 
@@ -21,8 +21,8 @@ async function createWindow() {
     titleBarOverlay: {
       height: 50
     },
-    // 图标
-    icon: join(__dirname, './assets/logo.png'),
+    // 设置图标
+    icon: join(__dirname, '../public/logo.png'),
     webPreferences: {
       // Use pluginOptions.nodeIntegration, leave this alone
       // See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info

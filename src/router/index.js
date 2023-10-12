@@ -66,6 +66,9 @@ const routes = [
   {
     path: '/about',
     name: 'about',
+    meta: {
+      title: '关于 - 岁岁廿廿的节气之旅'
+    },
     component: () => import('../views/AboutView.vue')
   }
 ]

@@ -27,39 +27,39 @@ const routes = [
     children: [
       {
         path: '1',
-        component: () => import('../views/books/book1/Page1View.vue'),
+        component: () => import('@/views/pages/book1/Page1View.vue'),
       },
       {
         path: '2',
-        component: () => import('../views/books/book1/Page2View.vue'),
+        component: () => import('@/views/pages/book1/Page2View.vue'),
       },
       {
         path: '3',
-        component: () => import('../views/books/book1/Page3View.vue'),
+        component: () => import('@/views/pages/book1/Page3View.vue'),
       },
       {
         path: '4',
-        component: () => import('../views/books/book1/Page4View.vue'),
+        component: () => import('@/views/pages/book1/Page4View.vue'),
       },
       {
         path: '5',
-        component: () => import('../views/books/book1/Page5View.vue'),
+        component: () => import('@/views/pages/book1/Page5View.vue'),
       },
       {
         path: '6',
-        component: () => import('../views/books/book1/Page6View.vue'),
+        component: () => import('@/views/pages/book1/Page6View.vue'),
       },
       {
         path: '7',
-        component: () => import('../views/books/book1/Page7View.vue'),
+        component: () => import('@/views/pages/book1/Page7View.vue'),
       },
       {
         path: '8',
-        component: () => import('../views/books/book1/Page8View.vue'),
+        component: () => import('@/views/pages/book1/Page8View.vue'),
       },
       {
         path: '9',
-        component: () => import('../views/books/book1/Page9View.vue'),
+        component: () => import('@/views/pages/book1/Page9View.vue'),
       },
     ]
   },

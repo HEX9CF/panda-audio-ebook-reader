@@ -10,10 +10,8 @@
       </el-col>
       <el-col :span="12">
         <div class="content">
-          <p class="engPara">
-            At the “Beginning of Spring”, the aura of early spring can be clearly felt in China's Tropic of Cancer and the
-            area south of it. In the nature, the most distinctive feature for “Beginning of Spring”is that everything begins
-            to recover and becomes full of vigor. Also, the daytime becomes longer and the weather gets warmers.
+          <p class="chsPara">
+            岁岁被一阵敲门声唤醒，打开门，是隔壁的邻居，他的手上拿着一副春牛图和一只泥土捏成的小春牛。原来是春耕的时候到了，邻居在挨家挨户上门拜访，向左邻右舍送上春耕祝福的话语。
           </p>
         </div>
       </el-col>

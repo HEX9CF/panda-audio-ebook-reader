@@ -10,32 +10,9 @@
       </el-col>
       <el-col :span="12">
         <div class="content">
-        <p class="chsPara">
-          岁岁披上斗篷蓑衣，走在雨中，它正准备要去田边山间采摘一些春天的食物。春雨过后，岁岁最最最喜欢
-          <el-tooltip placement="bottom">
-            <template #content><p class="tip">
-              春笋(Fresh bamboo shoots )<br/>
-              Fresh bamboo shoots are panda’s staple diet. They push through after the spring rain.
-            </p></template>
-            <strong>春笋</strong>
-          </el-tooltip>
-          都探出头来。想到这里，岁岁忍不住擦了擦口水。除此之外，还有吃完唇齿留香的马兰头、绿叶红边、香味浓郁的香椿和
-          <el-tooltip placement="bottom">
-            <template #content><p class="tip">
-            田艾籺（Partaking of Tian Ai Qi with Polished Glutinous Rice and Affine Cudweed in Guandong Style）<br/>
-            “Tian Ai Qi” is a common seasonal food and a snack with glutinous rice flour as the crust and filling, which can be mixed according to personal taste, both salty and sweet. At the beginning of spring, when everything is reviving and the grass is growing, it is the heyday of “Tian Ai Qi” growth in the spring fields.
-            </p></template>
-            <strong>田艾籺</strong>
-          </el-tooltip>
-          。书上说，
-          <el-tooltip placement="bottom">
-            <template #content><p class="tip">
-              According to the "Food Materia Medica", it is effective in dispelling dampness, warming the stomach and cleansing the intestines. It is also used as a seasonal tribute for worshipping the gods and praying for good weather and rain.
-            </p></template>
-            <strong>田艾籺它有祛湿、清热胃、清肠的功效呢</strong>
-          </el-tooltip>
-          。
-        </p>
+          <p class="chsPara">
+            路上岁岁碰到了住在村头的姐姐带着瓶瓶罐罐，川西这一带的姑娘都会在这天回娘家探望父母。村里人还有独特的爆炸谷米花的手艺，据说爆出的爆米花越多、成色越好，意味着今年的收成就会越好。
+          </p>
         </div>
       </el-col>
     </el-row>

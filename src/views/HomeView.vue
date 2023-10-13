@@ -6,10 +6,10 @@
         <h1>{{ title }}</h1>
         <el-text class="mx-1" size="small">{{ smallTitle }}</el-text>
         <el-divider></el-divider>
-        <img src="@/assets/logo.png" id="bigLogo"/>
+        <img src="@/assets/logo.png" height="200"/>
         <br/><br/>
         <el-card>
-          <el-icon><InfoFilled/></el-icon>&nbsp;提示：按下[F11]进入全屏模式，效果更佳。再次按下[F11]可退出全屏模式。
+          <el-icon><InfoFilled/></el-icon>&nbsp;提示：按下 [F11] 进入全屏模式，效果更佳。再次按下 [F11] 可退出全屏模式。
         </el-card>
         <br/>
 <!--
@@ -54,8 +54,4 @@ el-carousel-item el-image {
 }
 */
 
-#bigLogo {
-  height: 200px;
-  width: 200px;
-}
 </style>

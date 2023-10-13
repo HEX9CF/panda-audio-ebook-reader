@@ -23,7 +23,7 @@
 
 <style scoped>
 #logo {
-  max-height: 50px;
+  max-height: 48px;
   width: auto;
   vertical-align:middle;
 }

@@ -1,16 +1,34 @@
 <script setup>
-
+const page = 5;
 </script>
 
 <template>
   <div>
+    <el-card>
+      <el-row>
+        <el-col :span="12">
+          <span><el-icon><Headset /></el-icon>&nbsp;中文录音</span>
+          <br/>
+          <audio controls controlsList="nodownload">
+            <source :src="require('@/assets/audios/book1/chs/' + page + '.mp3')" type="audio/mpeg">
+          </audio>
+        </el-col>
+        <el-col :span="12">
+          <span><el-icon><Headset /></el-icon>&nbsp;英文录音</span>
+          <br/>
+          <audio controls controlsList="nodownload">
+            <source :src="require('@/assets/audios/book1/eng/' + page + '.mp3')" type="audio/mpeg">
+          </audio>
+        </el-col>
+      </el-row>
+    </el-card>
+    <br/>
     <el-row>
       <el-col :span="12">
-        <el-image :src="require('@/assets/images/book1/5.jpg')" fit="contain"/>
+        <el-image :src="require('@/assets/images/book1/' + page + '.jpg')" fit="contain" />
       </el-col>
       <el-col :span="12">
         <div class="content">
-
           <p class="chsPara">
             岁岁披上斗篷蓑衣，走在雨中，它正准备要去田边山间采摘一些春天的食物。春雨过后，岁岁最最最喜欢
             <el-tooltip placement="bottom">

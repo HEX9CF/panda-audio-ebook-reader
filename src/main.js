@@ -7,7 +7,7 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 
-// 创建app实例
+// 创建App实例
 const app = createApp(App);
 
 // 使用插件
@@ -26,6 +26,13 @@ router.beforeEach((to, from, next) => {
     }
     next()
 })
+
+// 禁用右键
+document.oncontextmenu = function () { return false; }
+// 禁用选择
+document.onselectstart = function () { return false; }
+// 禁用F12
+document.οnkeydοwn = function () { return false; }
 
 // 挂载app
 app.mount('#app');

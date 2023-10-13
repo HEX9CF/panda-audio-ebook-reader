@@ -31,14 +31,12 @@ const handleCurrentChange = () => {
         <el-text class="mx-1" size="small">{{ smallTitle }}</el-text>
         <el-divider></el-divider>
         <el-card>
-          <router-view></router-view>
-<!--
+          <!--<router-view></router-view>-->
           <router-view #default="{Component}">
             <transition name="el-fade-in">
               <component :is="Component"></component>
             </transition>
           </router-view>
--->
         </el-card>
         <el-divider></el-divider>
       </el-col>

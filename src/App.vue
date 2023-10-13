@@ -1,6 +1,11 @@
 <template>
   <navbar-comp></navbar-comp>
-  <router-view/>
+  <!--<router-view/>-->
+  <router-view #default="{Component}">
+    <transition name="el-fade-in">
+      <component :is="Component"></component>
+    </transition>
+  </router-view>
   <footer-comp></footer-comp>
 </template>
 

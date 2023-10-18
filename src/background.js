@@ -3,7 +3,7 @@
 import { app, protocol, BrowserWindow } from 'electron'
 import { createProtocol } from 'vue-cli-plugin-electron-builder/lib'
 // import installExtension, { VUEJS3_DEVTOOLS } from 'electron-devtools-installer'
-import { join } from 'path'
+import path from 'path'
 const isDevelopment = process.env.NODE_ENV !== 'production'
 
 // Scheme must be registered before the app is ready
@@ -24,10 +24,12 @@ async function createWindow() {
       symbolColor: '#000000'
     },
     // 设置图标
-    icon: join(__dirname, '../public/logo.png'),
+    icon: path.join(__dirname, '../public/logo.png'),
     webPreferences: {
+      // 使用预加载脚本
+      preload: path.join(__dirname, '/preload.js'),
+      webSecurity: false,
       // Use pluginOptions.nodeIntegration, leave this alone
-      // See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info
       nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
       contextIsolation: !process.env.ELECTRON_NODE_INTEGRATION
     }

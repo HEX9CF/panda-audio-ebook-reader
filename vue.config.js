@@ -3,6 +3,7 @@ module.exports = defineConfig({
   transpileDependencies: true,
   pluginOptions: {
     electronBuilder: {
+      preload:'src/preload.js',
       builderOptions: {
         productName: '岁岁廿廿的节气之旅 - 有声电子读本',
         target: [
@@ -21,6 +22,10 @@ module.exports = defineConfig({
           deleteAppDataOnUninstall: true,
           createDesktopShortcut: true,
           createStartMenuShortcut: true
+        },
+        extraResources: {
+          from: './resources',
+          to: ''
         }
       }
     }

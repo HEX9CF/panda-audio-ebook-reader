@@ -1,5 +1,11 @@
 <script setup>
 const page = 5;
+
+const rsPath = window.api.getRsPath();
+
+const chsAudio = rsPath + '/audios/book1/chs/' + page + '.mp3';
+const engAudio = rsPath + '/audios/book1/eng/' + page + '.mp3';
+const comicImage = rsPath + '/images/book1/comic/' + page + '.jpg';
 </script>
 
 <template>
@@ -10,14 +16,14 @@ const page = 5;
           <span><el-icon><Headset /></el-icon>&nbsp;中文录音</span>
           <br/>
           <audio controls controlsList="nodownload">
-            <source :src="require('@/assets/audios/book1/chs/' + page + '.mp3')" type="audio/mpeg">
+            <source :src="chsAudio" type="audio/mpeg">
           </audio>
         </el-col>
         <el-col :span="12">
           <span><el-icon><Headset /></el-icon>&nbsp;英文录音</span>
           <br/>
           <audio controls controlsList="nodownload">
-            <source :src="require('@/assets/audios/book1/eng/' + page + '.mp3')" type="audio/mpeg">
+            <source :src="engAudio" type="audio/mpeg">
           </audio>
         </el-col>
       </el-row>
@@ -25,7 +31,7 @@ const page = 5;
     <br/>
     <el-row>
       <el-col :span="12">
-        <el-image :src="require('@/assets/images/book1/' + page + '.jpg')" fit="contain" />
+        <el-image :src="comicImage" fit="contain" />
       </el-col>
       <el-col :span="12">
         <div class="content">

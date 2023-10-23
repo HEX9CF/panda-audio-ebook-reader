@@ -1,8 +1,9 @@
 <script setup>
 import router from "@/router";
 import { useRoute } from 'vue-router';
+import {ElNotification} from "element-plus";
 
-const title = "岁岁廿廿的节气之旅（春季篇）";
+const title = "岁岁廿廿的节气之旅 春季篇（上）";
 const smallTitle = "";
 
 const { params } = useRoute();
@@ -18,6 +19,12 @@ pagination.currentPage = params.id;
 const handleCurrentChange = () => {
   router.push({ path: `/book1/:id/${pagination.currentPage}` })
 }
+
+ElNotification.info({
+  title: '提示',
+  position: 'bottom-right',
+  message: "有声读物，佩戴耳机效果更佳。",
+})
 </script>
 
 <template>
@@ -31,12 +38,14 @@ const handleCurrentChange = () => {
         <el-text class="mx-1" size="small">{{ smallTitle }}</el-text>
         <el-divider></el-divider>
         <el-card>
-          <!--<router-view></router-view>-->
+          <router-view></router-view>
+          <!--
           <router-view #default="{Component}">
             <transition name="el-fade-in">
               <component :is="Component"></component>
             </transition>
           </router-view>
+          -->
         </el-card>
         <el-divider></el-divider>
       </el-col>

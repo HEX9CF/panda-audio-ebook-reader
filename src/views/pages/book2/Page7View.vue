@@ -1,6 +1,6 @@
 <script setup>
-const book = 1;
-const page = 2;
+const book = 2;
+const page = 7;
 
 const rsPath = window.api.getRsPath();
 
@@ -37,7 +37,13 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       <el-col :span="12">
         <div class="content">
           <p class="chsPara">
-            岁岁被一阵敲门声唤醒，打开门，是隔壁的邻居，他的手上拿着一副春牛图和一只泥土捏成的小春牛。原来是春耕的时候到了，邻居在挨家挨户上门拜访，向左邻右舍送上春耕祝福的话语。
+            岁岁得到了一个新玩具“蹴鞠”，这是村里的手艺传承人送给它的。
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">“Ju” is a kind of leather ball, which is made of leather and stuffed with wool. “Cuju” is playing football. This is a game during the Qingming Festival in ancient times.</p>
+              </template>
+              <strong>“鞠”是一种皮革球，它由皮革和羊毛制成。“鞠鞠”相当于踢足球。这是古代清明节时的游戏。</strong>
+            </el-tooltip>
           </p>
         </div>
       </el-col>

@@ -1,11 +1,12 @@
 <script setup>
+const book = 1;
 const page = 5;
 
 const rsPath = window.api.getRsPath();
 
-const chsAudio = rsPath + '/audios/book1/chs/' + page + '.mp3';
-const engAudio = rsPath + '/audios/book1/eng/' + page + '.mp3';
-const comicImage = rsPath + '/images/book1/comic/' + page + '.jpg';
+const chsAudio = rsPath + '/audios/book' + book + '/chs/' + page + '.mp3';
+const engAudio = rsPath + '/audios/book' + book + '/eng/' + page + '.mp3';
+const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
 </script>
 
 <template>

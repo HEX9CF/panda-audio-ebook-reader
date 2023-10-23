@@ -37,6 +37,15 @@ nav a.router-link-exact-active {
 </style>
 
 <script setup>
+import {ElNotification} from "element-plus";
+
 import NavbarComp from "@/components/NavbarComp.vue";
 import FooterComp from "@/components/FooterComp.vue";
+
+ElNotification.info({
+  title: '提示',
+  position: 'bottom-right',
+  dangerouslyUseHTMLString: true,
+  message: "<el-icon><FullScreen /></el-icon>&nbsp;按下 [F11] 进入全屏模式，再次按下可退出全屏模式。",
+})
 </script>

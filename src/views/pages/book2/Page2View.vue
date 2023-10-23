@@ -1,5 +1,5 @@
 <script setup>
-const book = 1;
+const book = 2;
 const page = 2;
 
 const rsPath = window.api.getRsPath();
@@ -37,7 +37,19 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       <el-col :span="12">
         <div class="content">
           <p class="chsPara">
-            岁岁被一阵敲门声唤醒，打开门，是隔壁的邻居，他的手上拿着一副春牛图和一只泥土捏成的小春牛。原来是春耕的时候到了，邻居在挨家挨户上门拜访，向左邻右舍送上春耕祝福的话语。
+            这时候，普通人家的餐桌上就会多出一道美味——
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">"Spring vegetables" is a kind of wild amaranth commonly known as "spring artemisia."</p>
+              </template>
+              <strong>“春菜”（一种野生苋菜，俗称“春蒿”）。</strong>
+            </el-tooltip>
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">On “Spring Equinox,” people go in groups to pick "spring vegetables" in the wild. After picking the vegetables, they make "spring soup" together with fish slices. Spring soup cleanses the liver and intestines; the whole family is safe and healthy.</p>
+              </template>
+              <strong>在春分，人们成群结队地去野外挑选“春菜”。摘完蔬菜后，他们和鱼片一起做“春汤”。在春分喝春汤，可以净化肝脏和肠道，还能保佑全家都安全健康。</strong>
+            </el-tooltip>
           </p>
         </div>
       </el-col>

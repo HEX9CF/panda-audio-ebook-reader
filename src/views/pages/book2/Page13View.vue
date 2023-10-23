@@ -1,6 +1,6 @@
 <script setup>
-const book = 1;
-const page = 2;
+const book = 2;
+const page = 13;
 
 const rsPath = window.api.getRsPath();
 
@@ -37,7 +37,21 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       <el-col :span="12">
         <div class="content">
           <p class="chsPara">
-            岁岁被一阵敲门声唤醒，打开门，是隔壁的邻居，他的手上拿着一副春牛图和一只泥土捏成的小春牛。原来是春耕的时候到了，邻居在挨家挨户上门拜访，向左邻右舍送上春耕祝福的话语。
+            要说谷雨前后让岁岁最高兴的，还得是一朵一朵，
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">Peony flowers bloom around the time of the Grain Rain, so peony flower is also known as “Grain Rain flower.”</p>
+              </template>
+              <strong>牡丹</strong>
+            </el-tooltip>
+            盛开。
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">To this day, peony festivals are held in places such as Heze in Shandong and Luoyang in Henan for people to admire the flowers during the Grain Rain.</p>
+              </template>
+              <strong>夜间“花会”垂暮悬灯，宴饮赏花</strong>
+            </el-tooltip>
+            ，岁岁在“花会”里尽情观赏游玩，手舞足蹈。
           </p>
         </div>
       </el-col>

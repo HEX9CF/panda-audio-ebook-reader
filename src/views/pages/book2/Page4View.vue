@@ -1,6 +1,6 @@
 <script setup>
-const book = 1;
-const page = 2;
+const book = 2;
+const page = 4;
 
 const rsPath = window.api.getRsPath();
 
@@ -37,7 +37,14 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       <el-col :span="12">
         <div class="content">
           <p class="chsPara">
-            岁岁被一阵敲门声唤醒，打开门，是隔壁的邻居，他的手上拿着一副春牛图和一只泥土捏成的小春牛。原来是春耕的时候到了，邻居在挨家挨户上门拜访，向左邻右舍送上春耕祝福的话语。
+            在户外活动中，风筝可是最受欢迎的。但你知道吗，风筝还有不同的名字——
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">Long long ago, kites were called "harrier" and "kite", and both "harrier" and "kite" were eagle-like raptors. Most of the kites were made of silk or paper in the shape of eagles, so they were also called "paper harriers" and "paper kites".</p>
+              </template>
+              <strong>很久很久以前，风筝被称为“鹞”和“鸢”，它们都是鹰类猛禽。大多数的风筝都是由丝绸或鹰形形状的纸制成的，所以它们也被称为“纸鸢”和“纸鹞”。</strong>
+            </el-tooltip>
+            风筝最早的造型是用绢或纸做成鹰，放飞时真得像一雄鹰在空中翱翔。岁岁迎着温和的春风，感受大自然的气息，真是美妙极了！
           </p>
         </div>
       </el-col>

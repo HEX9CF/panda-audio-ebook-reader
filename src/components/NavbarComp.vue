@@ -5,10 +5,9 @@
 <template>
   <el-affix position="top" :offset="0">
     <el-menu
-        :default-active="1"
+        :default-active="'/'"
         mode="horizontal"
         router
-        @select="handleSelect"
     >
       <div>
         <img src="../assets/logo.png" id="logo"/>

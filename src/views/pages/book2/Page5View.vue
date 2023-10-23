@@ -1,6 +1,6 @@
 <script setup>
-const book = 1;
-const page = 2;
+const book = 2;
+const page = 5;
 
 const rsPath = window.api.getRsPath();
 
@@ -36,8 +36,18 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       </el-col>
       <el-col :span="12">
         <div class="content">
+          <h1>清明</h1>
           <p class="chsPara">
-            岁岁被一阵敲门声唤醒，打开门，是隔壁的邻居，他的手上拿着一副春牛图和一只泥土捏成的小春牛。原来是春耕的时候到了，邻居在挨家挨户上门拜访，向左邻右舍送上春耕祝福的话语。
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">Pure Brightness</p>
+              </template>
+              <strong>清明</strong>
+            </el-tooltip>
+            ，既是传统节日，又是二十四节气之一。
+          </p>
+          <p class="chsPara">
+            这个时节阳光明媚、草木萌动、百花盛开、气清景明、万物皆显，自然界呈现生机勃勃的景象。
           </p>
         </div>
       </el-col>

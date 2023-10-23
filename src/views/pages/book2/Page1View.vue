@@ -1,6 +1,6 @@
 <script setup>
-const book = 1;
-const page = 2;
+const book = 2;
+const page = 1;
 
 const rsPath = window.api.getRsPath();
 
@@ -36,8 +36,28 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       </el-col>
       <el-col :span="12">
         <div class="content">
+          <h1>春分</h1>
           <p class="chsPara">
-            岁岁被一阵敲门声唤醒，打开门，是隔壁的邻居，他的手上拿着一副春牛图和一只泥土捏成的小春牛。原来是春耕的时候到了，邻居在挨家挨户上门拜访，向左邻右舍送上春耕祝福的话语。
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">Spring Equinox</p>
+              </template>
+              <strong>春分</strong>
+            </el-tooltip>
+            这一天，
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">The day and night is approximately equal, each for 12 hours. </p>
+              </template>
+              <strong>昼夜等长。</strong>
+            </el-tooltip>
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">After “Spring Equinox”, the weather is mild, rainy and with bright sunshine.</p>
+              </template>
+              <strong>春分之后，天气温和、多雨且阳光明媚。</strong>
+            </el-tooltip>
+            在天气由冷转热的过渡期间，要多注意开窗通风，预防春季流感。
           </p>
         </div>
       </el-col>

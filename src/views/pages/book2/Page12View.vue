@@ -1,6 +1,6 @@
 <script setup>
-const book = 1;
-const page = 2;
+const book = 2;
+const page = 12;
 
 const rsPath = window.api.getRsPath();
 
@@ -37,7 +37,20 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       <el-col :span="12">
         <div class="content">
           <p class="chsPara">
-            岁岁被一阵敲门声唤醒，打开门，是隔壁的邻居，他的手上拿着一副春牛图和一只泥土捏成的小春牛。原来是春耕的时候到了，邻居在挨家挨户上门拜访，向左邻右舍送上春耕祝福的话语。
+            下午，岁岁住在山东沿海的好朋友写信告诉它，海水回暖，百鱼行至浅海地带，是下海捕鱼的好日子，渔民们会在谷雨这天庆祝
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">Fisherman's Day is the festival of fishermen in Rongcheng City, Shandong Province, which originated fromthe Grain Rain Festival.</p>
+              </template>
+              <strong>“渔民节”，</strong>
+            </el-tooltip>
+            隆重举行了传统的
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">Rongcheng fishermen still hold the traditional sea sacrifice ceremony on Grain Rain day, thanking the God of the sea for the rich fish and shrimp and praying for the blessing of the gods to avoid disasters and eliminate difficulties.</p>
+              </template>
+              <strong>海上祭祀仪式，感谢海神赋予的丰富鱼虾，祈求海神保佑。</strong>
+            </el-tooltip>
           </p>
         </div>
       </el-col>

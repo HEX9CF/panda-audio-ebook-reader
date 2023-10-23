@@ -1,6 +1,6 @@
 <script setup>
-const book = 1;
-const page = 2;
+const book = 2;
+const page = 9;
 
 const rsPath = window.api.getRsPath();
 
@@ -37,7 +37,19 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       <el-col :span="12">
         <div class="content">
           <p class="chsPara">
-            岁岁被一阵敲门声唤醒，打开门，是隔壁的邻居，他的手上拿着一副春牛图和一只泥土捏成的小春牛。原来是春耕的时候到了，邻居在挨家挨户上门拜访，向左邻右舍送上春耕祝福的话语。
+            “什么味道好香啊——”这几天岁岁总是闻到空气中飘着糕点的甜香，原来是邻居在清明这一天做了
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">Qingtuan is the most distinctive seasonal food in the Pure Brightness Day.</p>
+              </template>
+              <strong>美味的青团。</strong>
+            </el-tooltip>
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">People pound the bromegrass juice and glutinous rice together to make the green juice and rice flour blend with each other, then wrap them with fillings such as red bean paste and jujube paste, and put them in the steamer with reed leaves at the bottom. Steamed qingtuan is brightly green in color and fragrant.</p>
+              </template>
+              <strong>人们在用雀麦草汁和糯米包上豆沙、枣泥等馅料，用芦叶垫底，放到蒸笼内——蒸出青团。蒸好的青团色泽鲜绿、香气扑鼻！</strong>
+            </el-tooltip>
           </p>
         </div>
       </el-col>

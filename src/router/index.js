@@ -23,7 +23,7 @@ const routes = [
     meta: {
       title: '《岁岁廿廿的节气之旅（春季篇）》'
     },
-    component: () => import('../views/Book1View.vue'),
+    component: () => import('../views/books/Book1View.vue'),
     children: [
       {
         path: '1',
@@ -60,6 +60,68 @@ const routes = [
       {
         path: '9',
         component: () => import('@/views/pages/book1/Page9View.vue'),
+      },
+    ]
+  },
+  {
+    path: '/book2/:id',
+    name: 'book2',
+    meta: {
+      title: '《岁岁廿廿的节气之旅（春季篇）》'
+    },
+    component: () => import('../views/books/Book2View.vue'),
+    children: [
+      {
+        path: '1',
+        component: () => import('@/views/pages/book2/Page1View.vue'),
+      },
+      {
+        path: '2',
+        component: () => import('@/views/pages/book2/Page2View.vue'),
+      },
+      {
+        path: '3',
+        component: () => import('@/views/pages/book2/Page3View.vue'),
+      },
+      {
+        path: '4',
+        component: () => import('@/views/pages/book2/Page4View.vue'),
+      },
+      {
+        path: '5',
+        component: () => import('@/views/pages/book2/Page5View.vue'),
+      },
+      {
+        path: '6',
+        component: () => import('@/views/pages/book2/Page6View.vue'),
+      },
+      {
+        path: '7',
+        component: () => import('@/views/pages/book2/Page7View.vue'),
+      },
+      {
+        path: '8',
+        component: () => import('@/views/pages/book2/Page8View.vue'),
+      },
+      {
+        path: '9',
+        component: () => import('@/views/pages/book2/Page9View.vue'),
+      },
+      {
+        path: '10',
+        component: () => import('@/views/pages/book2/Page10View.vue'),
+      },
+      {
+        path: '11',
+        component: () => import('@/views/pages/book2/Page11View.vue'),
+      },
+      {
+        path: '12',
+        component: () => import('@/views/pages/book2/Page12View.vue'),
+      },
+      {
+        path: '13',
+        component: () => import('@/views/pages/book2/Page13View.vue'),
       },
     ]
   },

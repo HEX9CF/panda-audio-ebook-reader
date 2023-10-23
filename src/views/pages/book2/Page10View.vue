@@ -1,6 +1,6 @@
 <script setup>
-const book = 1;
-const page = 2;
+const book = 2;
+const page = 10;
 
 const rsPath = window.api.getRsPath();
 
@@ -36,8 +36,22 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       </el-col>
       <el-col :span="12">
         <div class="content">
+          <h1>谷雨</h1>
           <p class="chsPara">
-            岁岁被一阵敲门声唤醒，打开门，是隔壁的邻居，他的手上拿着一副春牛图和一只泥土捏成的小春牛。原来是春耕的时候到了，邻居在挨家挨户上门拜访，向左邻右舍送上春耕祝福的话语。
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">Grain Rain</p>
+              </template>
+              <strong>谷雨</strong>
+            </el-tooltip>
+            是春季最后一个节气，
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">"Rain brings up the growth of hundreds of grains".</p>
+              </template>
+              <strong>“雨生百谷”，谷得雨而生也。</strong>
+            </el-tooltip>
+            谷雨意味着寒潮天气基本结束，气温回升加快。天气暖和，雨水多了，谷物开始生长。一年的丰收在这天有了预兆。
           </p>
         </div>
       </el-col>

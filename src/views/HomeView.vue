@@ -7,12 +7,6 @@
         <el-text class="mx-1" size="small">{{ smallTitle }}</el-text>
         <el-divider></el-divider>
         <img src="@/assets/logo.png" height="200"/>
-        <br/><br/>
-        <el-card>
-          <span>
-            <el-icon><FullScreen /></el-icon>&nbsp;按下 [F11] 进入全屏模式，效果更佳。再次按下 [F11] 可退出全屏模式。
-          </span>
-        </el-card>
         <br/>
 <!--
         <el-carousel :interval="4000" type="card">

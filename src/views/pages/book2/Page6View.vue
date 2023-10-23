@@ -1,6 +1,6 @@
 <script setup>
-const book = 1;
-const page = 2;
+const book = 2;
+const page = 6;
 
 const rsPath = window.api.getRsPath();
 
@@ -37,7 +37,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       <el-col :span="12">
         <div class="content">
           <p class="chsPara">
-            岁岁被一阵敲门声唤醒，打开门，是隔壁的邻居，他的手上拿着一副春牛图和一只泥土捏成的小春牛。原来是春耕的时候到了，邻居在挨家挨户上门拜访，向左邻右舍送上春耕祝福的话语。
+            清明这几天，天气温暖，春雨挥洒，更加适合树苗宝宝的生长体质。岁岁就在自己家的门前栽下了一棵小树，它想知道，自己和小树到底谁长得更快。于是邻居总是能看到岁岁又在和小树比身高。
           </p>
         </div>
       </el-col>

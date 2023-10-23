@@ -1,6 +1,6 @@
 <script setup>
-const book = 1;
-const page = 2;
+const book = 2;
+const page = 3;
 
 const rsPath = window.api.getRsPath();
 
@@ -37,7 +37,20 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       <el-col :span="12">
         <div class="content">
           <p class="chsPara">
-            岁岁被一阵敲门声唤醒，打开门，是隔壁的邻居，他的手上拿着一副春牛图和一只泥土捏成的小春牛。原来是春耕的时候到了，邻居在挨家挨户上门拜访，向左邻右舍送上春耕祝福的话语。
+            岁岁和小伙伴一起在玩一个有趣的游戏——
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">Standing an egg upright is a popular game across the country during the spring equinox.</p>
+              </template>
+              <strong>竖鸡蛋。</strong>
+            </el-tooltip>
+            <el-tooltip placement="bottom">
+              <template #content>
+                <p class="tip">On the spring equinox, people like to find a smooth, well-proportioned fresh egg and try to stand it on the table. It is not easy to stand up an egg, and the fun comes from repeatedly trying and failing.</p>
+              </template>
+              <strong>它们找到了光滑、均匀的新鲜鸡蛋，并试着把鸡蛋放在桌子上。要站起一个鸡蛋并不容易，但其中的乐趣则来自于反复的尝试和失败。</strong>
+            </el-tooltip>
+            岁岁不愿轻易放弃，因为它相信，如果能在春分这天将蛋竖起，它一定能在未来拥有好运。
           </p>
         </div>
       </el-col>

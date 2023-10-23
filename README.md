@@ -1,4 +1,4 @@
-# 24-solar-terms-ebook
+# panda-audio-ebook-reader 
 
 ## Project setup
 ```shell
@@ -33,6 +33,3 @@ npm run electron:build
 ```shell
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

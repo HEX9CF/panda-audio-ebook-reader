@@ -6,7 +6,7 @@
         <h1>{{ title }}</h1>
         <el-text class="mx-1" size="small">{{ smallTitle }}</el-text>
         <el-divider></el-divider>
-        <img src="@/assets/logo.png" height="200"/>
+        <img src="../assets/home-logo.png" height="200"/>
         <br/>
 <!--
         <el-carousel :interval="4000" type="card">

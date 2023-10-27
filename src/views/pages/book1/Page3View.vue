@@ -41,7 +41,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
             <el-tooltip placement="bottom">
               <template #content><p class="tip">
                 摆春盘（Making Spring Plate）<br/>
-                Spring plate is one of the food customs in spring, which contains fruit, vegetables, candy, cakes. Vegetables chiefly have bean sprouts, radishes, leeks, spinach, lettuce, beans, eggs, and shredded potatoes. It is made with a thin, round dough roll wrapped in the shape of long strips and then fried until golden brown. We usually send it to friends, relatives or self-eating to welcome the spring.
+                Spring plate is one of the food customs in spring, which contains fruit, vegetables, candy, cakes. Vegetables chiefly have bean sprouts, radishes, leeks, spinach, lettuce, beans, eggs, and shredded potatoes. Spring plate is made with a thin, round dough roll wrapped in the shape of long strips and then fried until golden brown. We usually send it to friends, relatives or self-eating to welcome the spring.
               </p></template>
               <strong>摆好了春盘</strong>
             </el-tooltip>
@@ -57,7 +57,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
             <el-tooltip placement="bottom">
               <template #content><p class="tip">
                 春 卷（Eating Spring Rolls）<br/>
-                As a proverb says, “ the capital's wealthy and noble families build noodles silkworm, called 'official silkworm' , and it is also  known as 'spring silkworms’ . ”
+                Spring rolls are deep fried, cylinder-shaped food made of golden, crispy wrappers and a tasty filling of various ingredients. They can appear on the table as a dinner dish, appetizer or snack. Because they look like bars of gold, spring rolls are a wish for prosperity and wealth.
               </p></template>
               <strong>春卷</strong>
             </el-tooltip>

@@ -41,7 +41,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
             <el-tooltip placement="bottom">
               <template #content><p class="tip">
                 春笋(Fresh bamboo shoots )<br/>
-                Fresh bamboo shoots are panda’s staple diet. They push through after the spring rain.
+                Fresh bamboo shoots are panda’s staple diet. They push through the earth after the spring rain.
               </p></template>
               <strong>春笋</strong>
             </el-tooltip>

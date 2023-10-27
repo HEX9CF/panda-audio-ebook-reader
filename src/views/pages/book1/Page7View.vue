@@ -56,7 +56,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
               <template #content><p class="tip">
                 Awakening of Insects mean spring’s move, awakened dormant in the soil hivernating animals.
               </p></template>
-              <strong>跟上时间的节奏唤醒春困的人们和冬眠的昆虫</strong>
+              <strong>跟上时间的节奏唤醒春困的人们和蛰伏在土壤中冬眠的昆虫。</strong>
             </el-tooltip>
             。
           </p>

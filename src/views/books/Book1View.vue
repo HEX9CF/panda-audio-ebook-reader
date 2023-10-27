@@ -8,7 +8,7 @@ const smallTitle = "";
 
 const { params } = useRoute();
 
-var pagination = {
+let pagination = {
   currentPage: 0,
   pageSize: 1,
   total: 9

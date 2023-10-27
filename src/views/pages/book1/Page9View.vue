@@ -40,7 +40,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
             岁岁又被可爱的村民们投喂了，惊蛰
             <el-tooltip placement="bottom">
               <template #content><p class="tip">
-                Awakening of Insets has the tradition of eating pears.
+                During Awakening of Insets，people have a tradition of eating pears.
               </p></template>
               <strong>吃梨</strong>
             </el-tooltip>

@@ -3,7 +3,7 @@ import router from "@/router";
 import { useRoute } from 'vue-router';
 import {ElNotification} from "element-plus";
 
-const title = "岁岁廿廿的节气之旅 春季篇（下）";
+const title = "岁岁廿廿的节气之旅 夏季篇（上）";
 const smallTitle = "";
 
 const { params } = useRoute();
@@ -11,13 +11,13 @@ const { params } = useRoute();
 let pagination = {
   currentPage: 0,
   pageSize: 1,
-  total: 13
+  total: 11
 };
 
 pagination.currentPage = params.id;
 
 const handleCurrentChange = () => {
-  router.push({ path: `/book2/:id/${pagination.currentPage}` })
+  router.push({ path: `/book3/:id/${pagination.currentPage}` })
 }
 
 ElNotification.info({

@@ -38,13 +38,13 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <p class="chsPara">
             这时候，普通人家的餐桌上就会多出一道美味——
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">"Spring vegetables" is a kind of wild amaranth commonly known as "spring artemisia."</p>
               </template>
               <strong>“春菜”（一种野生苋菜，俗称“春蒿”）。</strong>
             </el-tooltip>
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">On “Spring Equinox,” people go in groups to pick "spring vegetables" in the wild. After picking the vegetables, they make "spring soup" together with fish slices. Spring soup cleanses the liver and intestines; the whole family is safe and healthy.</p>
               </template>

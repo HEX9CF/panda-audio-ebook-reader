@@ -38,13 +38,13 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <p class="chsPara">
             “什么味道好香啊——”这几天岁岁总是闻到空气中飘着糕点的甜香，原来是邻居在清明这一天做了
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">Qingtuan is the most distinctive seasonal food in the Pure Brightness Day.</p>
               </template>
               <strong>美味的青团。</strong>
             </el-tooltip>
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">People pound the bromegrass juice and glutinous rice together to make the green juice and rice flour blend with each other, then wrap them with fillings such as red bean paste and jujube paste, and put them in the steamer with reed leaves at the bottom. Steamed qingtuan is brightly green in color and fragrant.</p>
               </template>

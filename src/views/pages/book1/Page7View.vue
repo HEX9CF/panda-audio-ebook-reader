@@ -38,7 +38,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <p class="chsPara">
             雨打立春节，
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content><p class="tip">
                 惊蛰（Awakening of Insets）<br/>
                 Jingzhe, or the “awakening of Insets” often falls in March in China, which is when hebernat insects begin to wake up from a long sleep gradually.
@@ -52,7 +52,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
           </p>
           <p class="chsPara">
             听，轰隆隆———岁岁正昏昏欲睡地靠窗休息，忽然被这惊雷吓得原地起立。这雷声传说中是由雷神，一手持鼓，一手拿锤，
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content><p class="tip">
                 Awakening of Insects mean spring’s move, awakened dormant in the soil hivernating animals.
               </p></template>

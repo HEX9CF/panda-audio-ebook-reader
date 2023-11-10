@@ -38,7 +38,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <p class="chsPara">
             岁岁又被可爱的村民们投喂了，惊蛰
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content><p class="tip">
                 During Awakening of Insets，people have a tradition of eating pears.
               </p></template>

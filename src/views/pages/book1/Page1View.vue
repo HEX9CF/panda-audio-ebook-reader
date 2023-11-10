@@ -37,7 +37,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       <el-col :span="12">
         <div class="content">
           <p class="chsPara">
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">立春（Beginning of Spring）</p>
               </template>

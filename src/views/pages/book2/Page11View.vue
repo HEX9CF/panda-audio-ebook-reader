@@ -38,14 +38,14 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <p class="chsPara">
           小雨淅淅沥沥，岁岁戴上草帽、拎起茶筒，蹦蹦跳跳地和村民们一起去茶园里采摘谷雨茶叶，准备制作
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">Grain Rain tea, also known as pre-rain tea, is spring tea harvested during Grain Rain period.</p>
               </template>
               <strong>谷雨茶。</strong>
             </el-tooltip>
             谷雨茶滋味鲜活，香气怡人，
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">It is said that Grain Rain's tea on this day will clear the fire, ward off evil spirits, and brighten the eyes.</p>
               </template>

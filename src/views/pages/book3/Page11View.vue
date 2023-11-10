@@ -37,7 +37,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       <el-col :span="12">
         <div class="content">
           <p class="chsPara">
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">The season of Grain in Ear is the ripe season of southern plums. In southern China, the ripeness of plums typically occurs between May and June each year. Plums are rich in various organic acids and minerals. Because their taste is sour and difficult to consume directly, they require processing by brewing. After that, People can taste sour and sweet waxberry and drink sweet waxberry wine.</p>
               </template>

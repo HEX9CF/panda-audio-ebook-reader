@@ -39,13 +39,13 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
           <h1>芒种</h1>
           <p class="chsPara">
             “芒种夏至天，走路要人牵。”
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">Grain in Ear solar term is characterized by a significant increase in temperature, abundant rainfall and high air humidity.</p>
               </template>
               <strong>芒种时节，气温显著提高，雨量充沛，空气湿度大。</strong>
             </el-tooltip>
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">
                   Grain in Ear is the key node of agricultural production. It is also known as "busy planting," which indicates that farmers are about to start busy field work.

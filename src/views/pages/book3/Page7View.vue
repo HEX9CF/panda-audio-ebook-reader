@@ -37,7 +37,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       <el-col :span="12">
         <div class="content">
           <p class="chsPara">
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">The "three Wheels" are starting to hum as Grain Buds gets closer. Waterwheel for irrigating the rice fields, spinning wheel for making silk products, and oil wheel for squeezing oil out of rapeseeds, all start to gather pace during this time of the year.</p>
               </template>
@@ -45,7 +45,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
             </el-tooltip>
           </p>
           <p class="chsPara">
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">Dry weather is easy to occur in Grain Buds, which is very unfavorable to crops. In the old days, farmers would use water trucks for drainage and irrigation to alleviate the drought.</p>
               </template>

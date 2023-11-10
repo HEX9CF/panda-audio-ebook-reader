@@ -38,7 +38,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <p class="chsPara">
             正好，邻居家门前围坐了好多人，十分热闹。岁岁饭后见状跑去围观，只见
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">
                   Checking the weight of people：This custom is popular in the south of China. After having the summer meal at noon, people hold a big wooden scale with a stool or bamboo basket hanging on its hook. Everyone takes turns to sit on it to check their weight, mainly the elderly and children.

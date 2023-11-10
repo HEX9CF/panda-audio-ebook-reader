@@ -38,14 +38,14 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <h1>谷雨</h1>
           <p class="chsPara">
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">Grain Rain</p>
               </template>
               <strong>谷雨</strong>
             </el-tooltip>
             是春季最后一个节气，
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">"Rain brings up the growth of hundreds of grains".</p>
               </template>

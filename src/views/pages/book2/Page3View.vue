@@ -38,13 +38,13 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <p class="chsPara">
             岁岁和小伙伴一起在玩一个有趣的游戏——
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">Standing an egg upright is a popular game across the country during the spring equinox.</p>
               </template>
               <strong>竖鸡蛋。</strong>
             </el-tooltip>
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">On the spring equinox, people like to find a smooth, well-proportioned fresh egg and try to stand it on the table. It is not easy to stand up an egg, and the fun comes from repeatedly trying and failing.</p>
               </template>

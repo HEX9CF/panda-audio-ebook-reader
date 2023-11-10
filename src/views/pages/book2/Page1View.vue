@@ -38,20 +38,20 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <h1>春分</h1>
           <p class="chsPara">
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">Spring Equinox</p>
               </template>
               <strong>春分</strong>
             </el-tooltip>
             这一天，
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">The day and night is approximately equal, each for 12 hours. </p>
               </template>
               <strong>昼夜等长。</strong>
             </el-tooltip>
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">After “Spring Equinox”, the weather is mild, rainy and with bright sunshine.</p>
               </template>

@@ -38,7 +38,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <p class="chsPara">
             小满之后，气候潮湿闷热，每次一出门，岁岁就热得脱下外套。苦味的食物最是清凉解毒，为了解暑，岁岁买回了苦菜、苦瓜。用来炖汤的
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">During Grain Buds, the climate is humid and muggy, while bitter vegetables are fresh and refreshing. Bitter vegetable is already luxuriant, which can not only be used as a good product for the working people to relieve summer heat and enhance appetite, but also a traditional Chinese medicine having the effect of clearing away toxin and excess body heat, cooling blood and stopping bleeding.</p>
               </template>

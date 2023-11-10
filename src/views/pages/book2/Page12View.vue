@@ -38,14 +38,14 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <p class="chsPara">
             下午，岁岁住在山东沿海的好朋友写信告诉它，海水回暖，百鱼行至浅海地带，是下海捕鱼的好日子，渔民们会在谷雨这天庆祝
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">Fisherman's Day is the festival of fishermen in Rongcheng City, Shandong Province, which originated fromthe Grain Rain Festival.</p>
               </template>
               <strong>“渔民节”，</strong>
             </el-tooltip>
             隆重举行了传统的
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">Rongcheng fishermen still hold the traditional sea sacrifice ceremony on Grain Rain day, thanking the God of the sea for the rich fish and shrimp and praying for the blessing of the gods to avoid disasters and eliminate difficulties.</p>
               </template>

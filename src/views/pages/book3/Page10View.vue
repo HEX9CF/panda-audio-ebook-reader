@@ -37,7 +37,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       <el-col :span="12">
         <div class="content">
           <p class="chsPara">
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">During rainy weather, the air is humid and hot and easy to make people sick.Timely hydration, due to the hot weather, the human body sweating more, we should pay attention to timely hydration.</p>
               </template>
@@ -46,7 +46,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
             </p>
           <p class="chsPara">
             此外，连鲜艳的花朵都被晒得失去了精神。
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">After May, all flowers begin to wither. Therefore, people will hold a ceremony to worship the Flower God in Grain in Ear, saying their farewell to the Flower God and expressing their gratitude to him.</p>
               </template>

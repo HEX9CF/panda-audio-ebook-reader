@@ -37,12 +37,12 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
       <el-col :span="12">
         <div class="content">
           <p class="chsPara">
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content><p class="tip">雨水（Rain Water）</p></template>
               <strong>雨水</strong>
             </el-tooltip>
             来了。
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content><p class="tip">
                   Happy Rain on a spring Night | By Du Fu<br/>
                   Good rainknows its time right,<br/>
@@ -58,7 +58,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
               </strong>
             </el-tooltip>
             岁岁口中念念有词，看着窗外连绵不断的细雨，知道这
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content><p class="tip">雨水（Rain Water）</p></template>
               <strong>雨水</strong>
             </el-tooltip>

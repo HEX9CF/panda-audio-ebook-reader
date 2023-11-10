@@ -38,7 +38,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <p class="chsPara">
             平日里，岁岁经常邀请好朋友们一起来院子里玩耍。岁岁拿出了好多水果和它的好朋友们分享。
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">Tasting new：There is a custom of tasting "three new" in the Beginning of Summer in Jiangnan area. Among the people of Nanjing, "three new" refers to cherries in Xuanwu Lake, green plum in Gaochun and reeves shad in Zhenjiang; In Suzhou, "three new" are freshly ripened cherries, prunes and wheat. In short, the Beginning of Summer is a good time to taste fresh seasonal food, and the "three new" produced in the Beginning of Summer are mostly light（清淡的）.</p>
               </template>

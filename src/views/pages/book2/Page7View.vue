@@ -38,7 +38,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <p class="chsPara">
             岁岁得到了一个新玩具“蹴鞠”，这是村里的手艺传承人送给它的。
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">“Ju” is a kind of leather ball, which is made of leather and stuffed with wool. “Cuju” is playing football. This is a game during the Qingming Festival in ancient times.</p>
               </template>

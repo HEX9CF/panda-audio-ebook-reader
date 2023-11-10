@@ -38,7 +38,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <p class="chsPara">
             中午，岁岁一家人一起吃
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">Many people in southern China have the custom of eating “colorful rice,” also traditionally called “lixia rice,” which is made from many different kinds of beans, like red beans,soy beans, black beans, green beans and mung beans mixed together with white japonica rice.</p>
               </template>

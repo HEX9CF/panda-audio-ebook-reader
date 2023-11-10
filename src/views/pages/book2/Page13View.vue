@@ -38,14 +38,14 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <p class="chsPara">
             要说谷雨前后让岁岁最高兴的，还得是一朵一朵，
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">Peony flowers bloom around the time of the Grain Rain, so peony flower is also known as “Grain Rain flower.”</p>
               </template>
               <strong>牡丹</strong>
             </el-tooltip>
             盛开。
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">To this day, peony festivals are held in places such as Heze in Shandong and Luoyang in Henan for people to admire the flowers during the Grain Rain.</p>
               </template>

@@ -38,13 +38,13 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <p class="chsPara">
             清明节有
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">Tomb sweeping refers that people sacrifice to ancestors to express their mourning.</p>
               </template>
               <strong>通过扫墓来祭祀祖先，表达哀悼的习俗。</strong>
             </el-tooltip>
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">When people visit the tomb, they usually bring food, drinks, fruits, paper money and other items to the cemetery, burn the paper money, and then kowtow.</p>
               </template>

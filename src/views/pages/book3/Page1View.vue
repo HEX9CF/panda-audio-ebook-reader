@@ -38,14 +38,14 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <h1>立夏</h1>
           <p class="chsPara">
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">Beginning of Summer</p>
               </template>
               <strong>立夏</strong>
             </el-tooltip>
             之后，日照增加，
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">During this period, temperature begins to rise obviously, thunderstorm becomes more frequent and crops’ growth enter the peak season.</p>
               </template>

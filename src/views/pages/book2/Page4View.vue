@@ -38,7 +38,7 @@ const comicImage = rsPath + '/images/book' + book + '/comic/' + page + '.jpg';
         <div class="content">
           <p class="chsPara">
             在户外活动中，风筝可是最受欢迎的。但你知道吗，风筝还有不同的名字——
-            <el-tooltip placement="bottom">
+            <el-tooltip placement="top">
               <template #content>
                 <p class="tip">Long long ago, kites were called "harrier" and "kite", and both "harrier" and "kite" were eagle-like raptors. Most of the kites were made of silk or paper in the shape of eagles, so they were also called "paper harriers" and "paper kites".</p>
               </template>
